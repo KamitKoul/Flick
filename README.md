@@ -2,7 +2,7 @@
 
 Flick is a high-precision, low-latency gesture recognition engine designed for Wear OS. It enables users to control their smartwatches using discrete wrist and finger movements, bypassing traditional touch interactions.
 
-## 🚀 Key Features
+##  Key Features
 
 - **Multi-Gesture Support**: Detects **Pinch**, **Double Pinch**, **Flick**, and **Tilt Up/Down**.
 - **Zero-Lag Physics Engine**: Optimized IMU vector analysis for real-time responsiveness on wearable hardware.
@@ -10,7 +10,7 @@ Flick is a high-precision, low-latency gesture recognition engine designed for W
 - **Advanced Call Handling**: Context-aware gesture mapping for answering or declining calls.
 - **Smart Overlays**: Programmatic swipe emulation to bypass OS restrictions on system UI.
 
-## 🏗️ Architecture
+##  Architecture
 
 The project consists of three main components:
 
@@ -26,7 +26,7 @@ The project consists of three main components:
     - Data harmonization for public datasets.
     - Model conversion and data augmentation tools.
 
-## 🛠️ Development History
+##  Development History
 
 Flick evolved from a heavy Random Forest ML model to a "Zero-Lag" Physics Heuristic Engine. This transition was necessary to solve performance bottlenecks on devices like the Pixel Watch 2, ensuring 60fps UI responsiveness while maintaining high gesture accuracy (98%+ in combined benchmarks).
 
@@ -35,7 +35,7 @@ See `DEVELOPMENT_LOG.md` for detailed engineering insights on:
 - Implementing "Ghost Swipe" path emulation.
 - Hysteresis logic for preventing cross-triggering.
 
-## 📦 Installation & Setup
+##  Installation & Setup
 
 ### Android App
 - Open the project in Android Studio.
@@ -49,7 +49,7 @@ pip install -r requirements.txt
 python scripts/train_model.py
 ```
 
-## 📂 Project Structure
+##  Project Structure
 
 - `app/`: Wear OS application source code.
 - `scripts/`: Data processing and training scripts.
@@ -57,6 +57,5 @@ python scripts/train_model.py
 - `models/`: (Ignored) Trained model artifacts.
 - `results/`: (Ignored) Training metrics and logs.
 
-## 🛡️ License
-
-[Include License Info Here]
+Author
+Kamit Koul
