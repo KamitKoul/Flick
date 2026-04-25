@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Flick</string>
+    <string name="accessibility_description">Flick uses motion sensor data to detect hand gestures and translate them into system actions like answering calls or navigating notifications. No personal data is collected, stored, or shared.</string>
+</resources>
