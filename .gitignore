@@ -22,6 +22,10 @@ __pycache__/
 *.tflite
 *.joblib
 *.npy
+*.parquet
+*.pkl
+*.h5
+*.jsonl
 datasets/
 models/
 results/
